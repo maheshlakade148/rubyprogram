@@ -3,13 +3,16 @@ class Rubyclass
        @name= name.capitalize
        @rank= rank 
    end
+
    def up
 
        @rank += 1
    end
+
    def to_s
       "Name of movie #{@name} & rank is #{@rank } \n"
    end
+
 end
   class Playlist
      def initialize(name)

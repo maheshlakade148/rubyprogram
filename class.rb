@@ -32,3 +32,4 @@ movie2 = Movie.new("mp4", 5)
 movie2.thumbs_down
 puts movie2
 
+#1
